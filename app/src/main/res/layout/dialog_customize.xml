@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="城市"
+        />
+    <EditText
+        android:id="@+id/something"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="美食、景点、酒店..."
+        />
+
+
+
+</LinearLayout>
